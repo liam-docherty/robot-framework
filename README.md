@@ -37,3 +37,7 @@ Uses `Robotidy`:
 - Automatic formatting?
 - Automatic linting?
 - How to access environment variables in tests?
+
+## Pre-Commit Hooks
+- To re-generate `.git/hooks/pre-commit` run `pre-commit install`
+- Run against all files: `pre-commit run --all-files`
