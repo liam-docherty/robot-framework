@@ -12,6 +12,10 @@
 ## Useful Extensions for VS Code
 [Robot Framework Language Server](https://marketplace.visualstudio.com/items?itemName=robocorp.robotframework-lsp)
 
+## Formatting
+Uses `Robotidy`:
+- https://github.com/MarketSquare/robotframework-tidy/tree/main/docs/source/transformers
+
 ## Additional Notes
 - Uses https://demo.applitools.com
 - Indentation is vitally important to differentiate the test name from the tests steps

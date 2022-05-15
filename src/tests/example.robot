@@ -1,7 +1,8 @@
 *** Settings ***
+Suite Teardown      Run Keyword    Close Browser
+
 Resource            ../page-objects/login.po.robot
 
-Suite Teardown      Run Keyword    Close Browser
 
 
 *** Variables ***
