@@ -1,6 +1,13 @@
 repos:
+-   repo: local
+    hooks:
+    -   id: format-robot
+        name: Format Robot Framework Files
+        entry: ./pre-commit-hooks/format-robot.sh
+        language: script
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
+    rev: db7346d375eda68a0174f2c057dd97f2fbffe030
     hooks:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
+    -   id: check-added-large-files

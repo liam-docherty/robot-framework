@@ -13,8 +13,8 @@
 [Robot Framework Language Server](https://marketplace.visualstudio.com/items?itemName=robocorp.robotframework-lsp)
 
 ## Formatting
-Uses `Robotidy`:
-- https://github.com/MarketSquare/robotframework-tidy/tree/main/docs/source/transformers
+- Uses [`Robotidy`](https://github.com/MarketSquare/robotframework-tidy/tree/main/docs/source/transformers)
+- Currently runs against all files, not just changed ones
 
 ## Additional Notes
 - Uses https://demo.applitools.com
