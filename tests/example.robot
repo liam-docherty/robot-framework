@@ -1,5 +1,5 @@
 *** Settings ***
-Library             SeleniumLibrary
+Resource            ../page-objects/login.po.robot
 
 Suite Teardown      Run Keyword    Close Browser
 
@@ -8,8 +8,4 @@ Suite Teardown      Run Keyword    Close Browser
 Login
     Comment    Login successfully
     Navigate to Login Page
-
-
-*** Keywords ***
-Navigate to Login Page
-    Open Browser    https://demo.applitools.com    chrome
+    Complete Login Form    "abc@test.com"    "def"
