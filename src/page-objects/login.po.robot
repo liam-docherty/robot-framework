@@ -1,7 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
 
-
 *** Variables ***
 ${USERNAME_INPUT}       id=username
 ${PASSWORD_INPUT}       id=password

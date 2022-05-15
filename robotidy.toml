@@ -1,0 +1,12 @@
+[tool.robotidy]
+src = [
+  "src"
+]
+transform = [
+  "MergeAndOrderSections:order=settings,variables,keywords,testcases,comments",
+  "OrderSettingsSection:group_order=documentation,tags,imports,settings",
+  "OrderSettingsSection:imports_order=library,resource,variables",
+  "OrderSettingsSection:settings_order=suite_setup,suite_teardown,test_setup,test_teardown,test_timeout,test_template",
+  "OrderSettingsSection:new_lines_between_groups=1",
+]
+line-length=100
